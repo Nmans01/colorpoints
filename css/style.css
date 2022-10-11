@@ -1,0 +1,27 @@
+body {
+    height: 95vh;
+    background-color: rgb(32, 32, 32);
+
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    margin: auto;
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+    border: 1px solid white;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cell {
+    margin: .5%;
+    height: 14%;
+    width: 14%;
+    border: solid 1px white;
+}
